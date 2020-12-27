@@ -11,6 +11,10 @@ a {
 	text-decoration: none;
 }
 
+.contact-information a {
+	text-decoration: underline;
+}
+
 h1 {
 	font-family: 'Georgia', 'Times', serif;
 }
