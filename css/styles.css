@@ -2,8 +2,29 @@ img, embed, object, video {
 	max-width: 100%;
 }
 
+#wrapper {
+	margin: 35px;
+}
+
+/*HEADER CSS*/
+
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#branding_and_navigation, .contact-information {
+	width: 100%;
+}
+
 #logo {
-	font-size: 56px;
+	font-size: 1.75rem;
+	font-weight: 400;
+}
+
+.header-label {
+	font-size: 16px;
 }
 
 a {
@@ -15,10 +36,22 @@ a {
 	text-decoration: underline;
 }
 
+.contact-information {
+	margin-left: auto;
+}
+
 h1 {
 	font-family: 'Georgia', 'Times', serif;
 }
 
 span, .header-label {
 	font-weight: 600;
+}
+
+
+/*CONTENT CSS*/
+
+.content-section {
+	display: flex;
+	flex-direction: column;
 }
