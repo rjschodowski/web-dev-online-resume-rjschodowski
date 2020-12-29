@@ -1,16 +1,31 @@
+/*REFER TO THIS LINK FOR CSS ORGANIZATION: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing
+*/
+
+
+/*GENERAL STYLES*/
+
+body {
+	line-height: 1.25;
+}
+
+
 img, embed, object, video {
 	max-width: 100%;
 }
 
+/*SITEWIDE*/
+
 #wrapper {
-	margin: 35px;
+	margin: 8px;
+	padding: 16px;
 }
 
-/*HEADER CSS*/
+
+	/*HEADER CSS*/
 
 .header {
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 
@@ -49,9 +64,11 @@ span, .header-label {
 }
 
 
-/*CONTENT CSS*/
+	/*CONTENT CSS*/
 
 .content-section {
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 }
+
+/*CSS FOR SPECIFIC THINGS*/
