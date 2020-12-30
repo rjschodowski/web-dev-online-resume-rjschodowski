@@ -13,20 +13,21 @@ body {
 #wrapper {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 8px;
+	margin: 0 12px 0 12px;
+	padding: 48px 0 24px 0;
 }
 
 .header, .content {
 	width: 100%;
 }
 
+
+
 .category-title {
 	font-size: 24px;
+	margin: 0px 0px 24px 0px;
 }
 
-#branding_and_navigation, .contact-information, .category-title {
-	margin: 24px 0px 24px 0px;
-}
 
 
 /*HEADER CSS*/
@@ -53,6 +54,12 @@ a {
 	text-decoration: underline;
 }
 
+.contact-information {
+	margin-bottom: 24px;
+}
+
+
+
 
 
 /*CONTENT*/
@@ -64,6 +71,15 @@ a {
 
 .content-section {
 	width: 100%;
+	margin: 0 0 24px 0;
+}
+
+.content-date {
+	margin: 24px 0 24px 0;
+}
+
+span, .content-title {
+	font-weight: 600;
 }
 
 
