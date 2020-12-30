@@ -1,0 +1,75 @@
+/*GENERAL STYLES*/
+
+img, embed, object, video {
+	max-width: 100%;
+}
+
+body {
+	background: white;
+    font-family: Open Sans,helvetica,verdana,sans-serif;
+	line-height: 1.25;
+}
+
+#wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 8px;
+}
+
+.header, .content {
+	width: 100%;
+}
+
+.category-title {
+	font-size: 24px;
+}
+
+#branding_and_navigation, .contact-information, .category-title {
+	margin: 24px 0px 24px 0px;
+}
+
+
+/*HEADER CSS*/
+
+h1 {
+	font-family: 'Georgia', 'Times', serif;
+}
+
+#logo {
+	font-size: 32px;
+	font-weight: 400;
+}
+
+.header-label {
+	font-size: 16px;
+}
+
+a {
+	color: #050505;
+	text-decoration: none;
+}
+
+.contact-information a {
+	text-decoration: underline;
+}
+
+
+
+/*CONTENT*/
+
+#content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.content-section {
+	width: 100%;
+}
+
+
+
+/* MEDIQ QUERIES */
+
+@media screen and (min-width: 320px) {
+
+}
