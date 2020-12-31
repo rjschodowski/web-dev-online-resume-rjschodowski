@@ -36,6 +36,10 @@ li, p {
 	font-size: 16px;
 }
 
+ul {
+	padding: 0 1em;
+}
+
 
 
 /*HEADER CSS*/
@@ -80,9 +84,18 @@ span, .content-title, .content-subtitle {
 }
 
 
-
 /* MEDIQ QUERIES */
 
-@media screen and (min-width: ) {
+@media screen and (min-width: 500px) {
+	.header {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#branding_and_navigation, #contact-information {
+		width: 50%;
+	}
 
+	#contact-information {
+		text-align: right;
+	}
 }
