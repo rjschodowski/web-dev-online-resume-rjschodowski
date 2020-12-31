@@ -14,7 +14,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 4px 0 4px;
-	padding: 48px 0 24px 0;
+	padding-top: 16px;
 }
 
 .header, .content {
@@ -22,13 +22,18 @@ body {
 }
 
 
+.item-2, .item-3 {
+	margin-top: 4px;
+}
 
 .category-title {
 	font-size: 24px;
 	margin: 0px 0px 24px 0px;
 }
 
-
+.header-label, #contact-information, .content-date, .content-title, .content-summary, .content-subtitle, .list-item, .items {
+	font-size: 16px;
+}
 
 /*HEADER CSS*/
 
@@ -41,20 +46,16 @@ h1 {
 	font-weight: 400;
 }
 
-.header-label {
-	font-size: 16px;
-}
-
 a {
 	color: #050505;
 	text-decoration: none;
 }
 
-.contact-information a {
+#contact-information a {
 	text-decoration: underline;
 }
 
-.contact-information {
+#contact-information {
 	margin-bottom: 24px;
 }
 
