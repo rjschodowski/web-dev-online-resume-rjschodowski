@@ -75,11 +75,18 @@ a {
 }
 
 .content-date {
-	margin: 24px 0 24px 0;
+	font-family: 'Lato', sans-serif;
+	margin: 16px 0 8px 0;
 }
 
 span, .content-title {
 	font-weight: 600;
+	margin-bottom: 4px;
+}
+
+.content-subtitle {
+	font-weight: 600;
+	margin: 4px 0 4px 0;
 }
 
 
