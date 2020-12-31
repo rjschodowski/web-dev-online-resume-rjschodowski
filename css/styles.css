@@ -1,46 +1,52 @@
-/*REFER TO THIS LINK FOR CSS ORGANIZATION: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing
-*/
-
-
 /*GENERAL STYLES*/
-
-body {
-	line-height: 1.25;
-}
-
 
 img, embed, object, video {
 	max-width: 100%;
 }
 
-
-/*SITEWIDE*/
+body {
+	background: white;
+    font-family: Open Sans,helvetica,verdana,sans-serif;
+	line-height: 1.25;
+}
 
 #wrapper {
-	margin: 8px;
-	padding: 16px;
-}
-
-
-	/*HEADER CSS*/
-
-.header {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
 }
 
-#branding_and_navigation, .contact-information {
+.header, .content {
 	width: 100%;
 }
 
-#logo {
-	font-size: 1.75rem;
-	font-weight: 400;
+.category-title {
+	font-size: 24px;
+	
 }
 
-.header-label {
+h1,h2,h3,h4,h5,ol,ul,p { 
+	margin: 1em 10px; 
+}
+
+p {
+	line-height: 1.25;
+}
+
+li, p {
 	font-size: 16px;
+}
+
+
+
+/*HEADER CSS*/
+
+h1 {
+	font-family: 'Georgia', 'Times', serif;
+}
+
+#logo {
+	font-size: 32px;
+	font-weight: 400;
 }
 
 a {
@@ -48,28 +54,35 @@ a {
 	text-decoration: none;
 }
 
-.contact-information a {
+#contact-information a {
 	text-decoration: underline;
 }
 
-.contact-information {
-	margin-left: auto;
-}
-
-h1 {
-	font-family: 'Georgia', 'Times', serif;
-}
-
-span, .header-label {
-	font-weight: 600;
-}
 
 
-	/*CONTENT CSS*/
+/*CONTENT*/
 
-.content-section {
+#content {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-/*CSS FOR SPECIFIC THINGS*/
+.content-section {
+	width: 100%;
+}
+
+.content-date {
+	font-family: 'Lato', sans-serif;
+}
+
+span, .content-title, .content-subtitle {
+	font-weight: 600;
+}
+
+
+
+/* MEDIQ QUERIES */
+
+@media screen and (min-width: ) {
+
+}
